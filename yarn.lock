@@ -741,13 +741,13 @@ __metadata:
   linkType: hard
 
 "@wix/redirects@npm:^1.0.13, @wix/redirects@npm:^1.0.23":
-  version: 1.0.23
-  resolution: "@wix/redirects@npm:1.0.23"
+  version: 1.0.25
+  resolution: "@wix/redirects@npm:1.0.25"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: 9ed4019190b0a03e071309238deb7a60bc82180ac043f53f2f8948fba0c271f40c390612c635e0637ac8ee2abc594ebd67e3550e77f9a500d863b2697d7f09f2
+  checksum: d2d952a19e8b54e49ddf4847f45937bdc2255c592d60a62fb556df80f69f4d527a63bd2e9b16838f9254a490829ed411182baf443372baba015e1353c9663cc6
   languageName: node
   linkType: hard
 
