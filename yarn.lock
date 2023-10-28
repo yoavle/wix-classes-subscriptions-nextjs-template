@@ -28,12 +28,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.22.11":
-  version: 7.22.11
-  resolution: "@babel/runtime@npm:7.22.11"
+"@babel/runtime@npm:^7.23.2":
+  version: 7.23.2
+  resolution: "@babel/runtime@npm:7.23.2"
   dependencies:
     regenerator-runtime: ^0.14.0
-  checksum: a5cd6683a8fcdb8065cb1677f221e22f6c67ec8f15ad1d273b180b93ab3bd86c66da2c48f500d4e72d8d2cfa85ff4872a3f350e5aa3855630036af5da765c001
+  checksum: 6c4df4839ec75ca10175f636d6362f91df8a3137f86b38f6cd3a4c90668a0fe8e9281d320958f4fbd43b394988958585a17c3aab2a4ea6bf7316b22916a371fb
   languageName: node
   linkType: hard
 
@@ -558,18 +558,18 @@ __metadata:
   linkType: hard
 
 "@wix/api-client@npm:^1.2.7":
-  version: 1.3.0
-  resolution: "@wix/api-client@npm:1.3.0"
+  version: 1.5.6
+  resolution: "@wix/api-client@npm:1.5.6"
   dependencies:
-    "@babel/runtime": ^7.22.11
-    "@wix/identity": ^1.0.54
-    "@wix/image-kit": ^1.36.0
-    "@wix/redirects": ^1.0.23
-    "@wix/sdk-types": 1.3.0
+    "@babel/runtime": ^7.23.2
+    "@wix/identity": ^1.0.60
+    "@wix/image-kit": ^1.38.0
+    "@wix/redirects": ^1.0.26
+    "@wix/sdk-types": 1.5.1
     pkce-challenge: ^3.1.0
     querystring: ^0.2.1
     type-fest: ^3.13.1
-  checksum: ee4efd6ac5521721df4b341152c4cf7e97d9a5dc4fe7ac688ebb2092be68a05b9f8a205a69e7a1e27573c7e6ee1736e2acfc5c8d07e0885d26786db245b4543a
+  checksum: d870c9e79ff958b2ee16c3ad3b0527fa82e7897f6e4f5691d43fd469355dbb9eff4edb5ee23f1de9d3397c66adf05ceda27644c612c6ac56638b643ac91d0845
   languageName: node
   linkType: hard
 
@@ -595,24 +595,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/identity@npm:^1.0.54":
-  version: 1.0.55
-  resolution: "@wix/identity@npm:1.0.55"
+"@wix/identity@npm:^1.0.60":
+  version: 1.0.60
+  resolution: "@wix/identity@npm:1.0.60"
   dependencies:
     "@wix/metro-runtime": ^1.0.0
     "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
     "@wix/sdk-types": ^1.0.0
-  checksum: 219f61de961f48472ba0c9c0bbf3b7f9a20951858424edf8a2437a62ffdc516c91c7add2af4463eb12b63169ad7125c97b009a52479f2c5c49cb02afdbcd9819
+  checksum: e52b05918213f71e07130a192ebdced42148d49c05fec573611ac37c11069484fcaa79bde11ebb8c730076fc3addd7f3ba3bb44ed165e30c1b30d7373d2f3ea6
   languageName: node
   linkType: hard
 
-"@wix/image-kit@npm:^1.36.0":
-  version: 1.36.0
-  resolution: "@wix/image-kit@npm:1.36.0"
+"@wix/image-kit@npm:^1.38.0":
+  version: 1.38.0
+  resolution: "@wix/image-kit@npm:1.38.0"
   dependencies:
     "@babel/runtime": ^7.0.0
     tslib: ^2.0.0
-  checksum: 47c1b4662cafa7b8ff63afb8bd0be9e9cf1e424551e08b766121e9846b01c707f0d1b440f3299abc44020a54d8d40020a89602fdf6d6fd32adc1eefc70177e43
+  checksum: 126b7315d3b1b9f37198186eb3630d7983cbc902bf6df4166c61077b4a1873b7116c3859fefaba1b4f6982437dfdcf9b44cd8dbc22f4bad804ea39cdf556c8e4
   languageName: node
   linkType: hard
 
@@ -740,7 +740,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/redirects@npm:^1.0.13, @wix/redirects@npm:^1.0.23":
+"@wix/redirects@npm:^1.0.13":
   version: 1.0.23
   resolution: "@wix/redirects@npm:1.0.23"
   dependencies:
@@ -751,10 +751,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@wix/sdk-types@npm:1.3.0":
-  version: 1.3.0
-  resolution: "@wix/sdk-types@npm:1.3.0"
-  checksum: 3d3aee071e98cbd0a44f626952e6a91eac67aa46295d3dc07edf0862717652cb419b4ba74ca0396b651e8b39cd933674b09af0a52a1e392193670c6267415ef4
+"@wix/redirects@npm:^1.0.26":
+  version: 1.0.26
+  resolution: "@wix/redirects@npm:1.0.26"
+  dependencies:
+    "@wix/metro-runtime": ^1.0.0
+    "@wix/motion-edm-autogen-query-wrapper": ^1.0.0
+    "@wix/sdk-types": ^1.0.0
+  checksum: 2c649092d534b752777e7e703eccc8045015ba3c63da749762e1baa3163700a9c8187f90dc30b46a7a26d4cba0bede7e29c9aa324909bfe35c242b6d14e7eb8a
+  languageName: node
+  linkType: hard
+
+"@wix/sdk-types@npm:1.5.1":
+  version: 1.5.1
+  resolution: "@wix/sdk-types@npm:1.5.1"
+  checksum: 8eb5d36125072cacdcf8d629fde462677fda3a526310109be976e1f88d8e232adf9f29b0ae7c4091fd36b0ec5d35ad660ce7e8b3266a219bb9a0a4f5b7aaea3c
   languageName: node
   linkType: hard
 
